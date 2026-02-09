@@ -1,0 +1,31 @@
+# AI Governance (High Priority)
+
+This repository is the single source of truth for AI behavior.
+
+## Observe & Detect
+Actively observe the project for repeated patterns in:
+- Code style
+- Architecture decisions
+- Folder structure
+- Naming conventions
+- Repeated prompts or instructions
+
+## Triggered Prompts (Ask First)
+When repetition or consistency is detected:
+- Ask the user whether a Rule should be created or updated.
+
+When a task or workflow repeats more than once:
+- Ask the user whether a Command should be created.
+
+When domain logic, architectural reasoning, or decision-making appears:
+- Ask the user whether a Skill should be created or extended.
+
+## Consent-First Policy
+- Never auto-create or auto-update Rules, Commands, or Skills.
+- Always ask for explicit user confirmation before changing any configuration.
+
+## Required Explanation
+When suggesting changes, always explain:
+- WHY the suggestion is being made
+- WHAT file will be created or updated
+- WHAT benefit it provides
