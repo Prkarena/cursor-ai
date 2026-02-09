@@ -1,0 +1,13 @@
+# React Testing Standards
+
+## Coverage Focus
+- Prioritize critical user paths.
+- Cover error and empty states.
+
+## Testing Style
+- Test behavior, not implementation details.
+- Prefer React Testing Library for components.
+
+## Reliability
+- Avoid time-based flakiness.
+- Use stable selectors and accessible roles.

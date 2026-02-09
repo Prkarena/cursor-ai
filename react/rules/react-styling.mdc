@@ -1,0 +1,13 @@
+# React Styling Standards
+
+## Consistency
+- Use a single styling approach per project.
+- Avoid inline styles except for dynamic values.
+
+## Naming
+- Use consistent class naming conventions.
+- Prefer design tokens for colors, spacing, and typography.
+
+## Theming
+- Support light/dark themes when required.
+- Keep theme tokens centralized.

@@ -1,0 +1,14 @@
+# React Architecture Standards
+
+## Layering
+- Separate UI, domain logic, and data access.
+- Keep API clients in `services/` or `data/`.
+- Keep state stores in `state/` with clear ownership.
+
+## Composition
+- Prefer composition over inheritance and prop drilling.
+- Use context only for truly global concerns.
+
+## Boundaries
+- Avoid importing feature modules across domains.
+- Shared utilities live in `shared/` and must be framework-agnostic.

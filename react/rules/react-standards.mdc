@@ -1,0 +1,25 @@
+# React Standards (React 18+)
+
+## Component Model
+- Use functional components only.
+- Prefer Hooks-first patterns; avoid class components.
+- Keep components small and focused on a single responsibility.
+- Components must be pure with predictable inputs/outputs.
+
+## TypeScript & Props
+- Prefer TypeScript for components and hooks.
+- Use explicit prop types; avoid implicit `any`.
+- Prefer discriminated unions for variant props.
+- Define `Props` as a named type; avoid inline complex types.
+
+## File & Folder Conventions
+- Co-locate component files with styles and tests.
+- Keep shared UI in `components/` and domain UI in `features/<domain>/`.
+- Export public components via index files only.
+- Prefer one component per file.
+
+## Accessibility & Performance
+- Enforce semantic HTML and accessible labels.
+- Avoid unnecessary re-renders; memoize only when justified.
+- Use lazy loading for large routes or heavy components.
+- Use `aria-*` attributes only when semantics are insufficient.

@@ -1,0 +1,14 @@
+# React Performance Standards
+
+## Rendering
+- Avoid inline object/array props when causing churn.
+- Use `React.memo` only when profiling shows benefit.
+- Prefer derived state over duplicated state.
+
+## Lists
+- Use stable keys; never use array index as key for dynamic lists.
+- Virtualize long lists when needed.
+
+## Code Splitting
+- Lazy load large routes or heavy components.
+- Avoid eager loading of rarely used code paths.

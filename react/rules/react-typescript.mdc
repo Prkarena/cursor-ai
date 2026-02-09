@@ -1,0 +1,19 @@
+# React TypeScript Standards
+
+## Typing Discipline
+- Avoid `any`; use `unknown` when necessary.
+- Prefer explicit return types for exported hooks and utilities.
+- Use `Readonly` for props and immutable data structures.
+
+## Component Props
+- Use `Props` or `<Component>Props` naming.
+- Make optional props explicit with `?`.
+- Avoid overloading props with unrelated concerns.
+
+## State and Reducers
+- Use discriminated unions for reducer actions.
+- Keep state shapes minimal and normalized.
+
+## Event Handling
+- Use React event types (`React.ChangeEvent`, `React.MouseEvent`).
+- Avoid casting unless unavoidable and documented.

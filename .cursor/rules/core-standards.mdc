@@ -1,0 +1,23 @@
+# Core Standards (Always-On)
+
+These rules apply to every project using this repository.
+
+## Language & Formatting
+- Prefer clear, explicit code over clever shortcuts.
+- Use consistent naming: nouns for data, verbs for actions.
+- Keep files focused; avoid multi-purpose "kitchen sink" modules.
+
+## Security & Performance Guardrails
+- Never introduce insecure defaults (e.g., hard-coded secrets, open CORS, unsafe eval).
+- Validate all external inputs at boundaries.
+- Prefer efficient algorithms; avoid O(n^2) patterns when scalable alternatives exist.
+
+## Architectural Boundaries
+- Separate domain logic from UI/framework glue.
+- Keep side effects isolated behind well-defined interfaces.
+- Avoid tight coupling between layers; use clear contracts.
+
+## Hard Prohibitions (AI Must NEVER)
+- Do not add telemetry, tracking, or data collection without explicit user approval.
+- Do not auto-modify configuration or policy files without confirmation.
+- Do not invent requirements or implement speculative features.

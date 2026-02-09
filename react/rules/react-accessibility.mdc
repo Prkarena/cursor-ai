@@ -1,0 +1,17 @@
+# React Accessibility Standards
+
+## Semantics
+- Use semantic HTML elements first.
+- Provide accessible names for interactive controls.
+
+## Forms
+- Every input must have a label or `aria-label`.
+- Errors must be announced via `aria-live` when applicable.
+
+## Focus Management
+- Keep focus visible and consistent.
+- Manage focus on dialogs, drawers, and overlays.
+
+## Media
+- Provide alt text for images.
+- Provide captions or transcripts when needed.

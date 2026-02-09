@@ -1,0 +1,13 @@
+# React Security Standards
+
+## Data Handling
+- Never render untrusted HTML without sanitization.
+- Validate inputs at API boundaries.
+
+## Authentication & Authorization
+- Do not expose privileged actions in client-only logic.
+- Use server-validated permissions for protected actions.
+
+## Dependencies
+- Avoid unreviewed third-party UI libraries.
+- Keep dependencies minimal and justified.
